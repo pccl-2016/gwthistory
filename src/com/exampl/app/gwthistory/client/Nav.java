@@ -5,6 +5,7 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
+import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.ui.Anchor;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
@@ -29,28 +30,23 @@ public class Nav extends Composite {
 	
 	@UiHandler("home")
 	void onHomeClick(ClickEvent e) {
-		RootPanel.get("content").clear();
-		RootPanel.get("content").add(new Home());
+		History.newItem("home");
 	}
 
 	@UiHandler("page1")
 	void onPage1Click(ClickEvent e) {
-		RootPanel.get("content").clear();
-		RootPanel.get("content").add(new Page1());
+		History.newItem("page1");
 	}
 	@UiHandler("page2")
 	void onPage2Click(ClickEvent e) {
-		RootPanel.get("content").clear();
-		RootPanel.get("content").add(new Page2());
+		History.newItem("page2");
 	}
 	@UiHandler("page3")
 	void onPage3Click(ClickEvent e) {
-		RootPanel.get("content").clear();
-		RootPanel.get("content").add(new Page3());
+		History.newItem("page3");
 	}
 	@UiHandler("page4")
 	void onPage4Click(ClickEvent e) {
-		RootPanel.get("content").clear();
-		RootPanel.get("content").add(new Page4());
+		History.newItem("page4");
 	}
 }
