@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<header>
+			<g:Button ui:field="home">Home</g:Button>
+			<g:Button ui:field="page1">Page 1</g:Button>
+			<g:Button ui:field="page2">Page 2</g:Button>
+			<g:Button ui:field="page3">Page 3</g:Button>
+			<g:Button ui:field="page4">Page 4</g:Button>
+		</header>
+	</g:HTMLPanel>
+</ui:UiBinder> 

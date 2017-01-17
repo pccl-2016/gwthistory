@@ -1,0 +1,38 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Page 2</h1>
+		<div class="page_content">
+			<p>
+				Integer viverra, mauris sed eleifend imperdiet, elit augue fringilla
+				mauris, ac ultricies felis mauris eget lacus. Donec at est augue.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In egestas
+				ut urna eu tincidunt. Fusce mattis aliquam sem eu malesuada. Sed
+				pulvinar vitae dolor eget aliquam. Phasellus quis eleifend mauris.
+				Nulla vitae nunc hendrerit justo sodales aliquam.</p>
+
+			<p>Donec efficitur ex eu risus varius pulvinar. Sed imperdiet
+				interdum libero, nec euismod ligula elementum eu. Sed porta sagittis
+				malesuada. Quisque consectetur quis tellus sit amet ullamcorper.
+				Vestibulum sed feugiat diam. Sed in gravida diam, vel blandit velit.
+				In dapibus lectus vel commodo viverra. Fusce eget enim eget dolor
+				tincidunt pellentesque. Nunc nibh justo, euismod vel viverra vel,
+				sodales maximus augue. Fusce facilisis nunc ut nulla porta
+				vulputate. In congue augue dui, eu vehicula risus vehicula vel.
+				Aenean sit amet feugiat massa, vitae venenatis sapien. Donec non
+				sollicitudin ante. Integer eget est et augue euismod posuere eu et
+				justo. In hac habitasse platea dictumst.</p>
+
+			<p>Curabitur in magna metus. Ut non urna auctor, volutpat diam et,
+				vestibulum velit. Ut et sollicitudin enim, ac dapibus metus. Duis
+				quis leo a augue bibendum vulputate. Ut dignissim velit sed leo
+				hendrerit viverra. Fusce sed venenatis tortor. Integer commodo
+				facilisis velit.
+			</p>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

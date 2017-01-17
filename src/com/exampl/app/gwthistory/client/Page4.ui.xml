@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Page 4</h1>
+		<div class="page_content">
+			<p>Nam fermentum ornare nunc, eget porttitor ipsum gravida id. Nullam
+				scelerisque, nibh sit amet dapibus condimentum, odio eros
+				ullamcorper orci, a rutrum risus justo id purus. Integer finibus
+				metus non felis facilisis vulputate. Donec elit nulla, dignissim at
+				porttitor finibus, bibendum id risus. Etiam maximus, magna id
+				egestas euismod, ipsum odio facilisis libero, ultrices dictum neque
+				diam sed ex. Suspendisse sodales vitae arcu in volutpat. Nam ac
+				fringilla mi. Nam tincidunt velit quis sapien volutpat, ut tempus
+				diam pretium. In nec mattis augue. Nulla facilisi. In aliquet libero
+				eu velit pellentesque gravida. Donec est elit, aliquet eu dolor
+				quis, malesuada dignissim tortor. Praesent eu placerat tellus. Etiam
+				volutpat hendrerit arcu, sit amet mollis leo posuere nec. Sed
+				hendrerit urna id augue pellentesque, non porttitor nisl
+				consectetur.</p>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

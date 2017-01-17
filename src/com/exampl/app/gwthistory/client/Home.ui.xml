@@ -1,0 +1,50 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Home Page</h1>
+		<div class="page_content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+				neque dui,
+				euismod vel faucibus vel, blandit ut nulla. Duis egestas placerat odio nec
+				hendrerit. Cum sociis natoque penatibus et magnis dis parturient
+				montes,
+				nascetur ridiculus mus. Sed tincidunt nulla nec pellentesque pellentesque.
+				Aenean auctor, massa sed accumsan efficitur, mi elit sagittis felis,
+				at
+				sollicitudin massa tellus at justo. Phasellus pharetra tempor ullamcorper.
+				Aliquam finibus pulvinar augue ac tristique. Curabitur quis accumsan
+				ex.
+				Praesent eget tincidunt arcu. Vivamus at mi justo. Donec sed scelerisque
+				ipsum.</p>
+
+			<p>Fusce est massa, porta ac orci vitae, volutpat accumsan eros.
+				Integer a magna
+				quis nisl ornare sollicitudin. Ut a egestas diam. Donec rhoncus lectus
+				ac dolor
+				blandit porta. Ut porta magna pharetra bibendum gravida. Fusce maximus
+				magna ac
+				justo sodales, eget finibus sapien vehicula. Suspendisse at dolor
+				suscipit,
+				accumsan enim id, faucibus metus. In faucibus dignissim imperdiet.
+				Vestibulum
+				interdum diam at pulvinar dictum. Nam aliquam rhoncus purus a sodales. Duis
+				rhoncus iaculis leo ut ultricies. Cras vestibulum, orci nec iaculis
+				interdum,
+				urna dui egestas dui, sit amet semper arcu magna in mauris. Nam
+				efficitur auctor
+				nisl. Fusce vitae purus tristique, lacinia diam at, semper quam. Sed quis
+				tincidunt sapien.</p>
+
+			<p>Quisque vitae eros velit. Suspendisse eleifend at ante et iaculis.
+				Nullam aliquam arcu nec risus porta, vel ullamcorper augue auctor.
+				Proin vitae magna nunc. Morbi sit amet consequat neque. Integer
+				maximus blandit metus id consequat. Mauris euismod nisi at orci
+				tempor cursus ac vitae tellus. Sed id mi sed turpis efficitur
+				consectetur. Praesent vehicula molestie vulputate.</p>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

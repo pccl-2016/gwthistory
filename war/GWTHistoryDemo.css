@@ -1,0 +1,39 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 40px 0px 40px;
+  text-align: center;
+}
+
+header {
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.page_content {
+	width: 40%;
+	margin: auto;
+}
+.gwt-Button {
+	background-color: #4285f4;
+    line-height: 30px;
+    width: 80px;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 4em;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
