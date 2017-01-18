@@ -6,15 +6,7 @@
          xmlns="http://java.sun.com/xml/ns/javaee">
 
   <!-- Servlets -->
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.exampl.app.gwthistory.server.GreetingServiceImpl</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/gwthistorydemo/greet</url-pattern>
-  </servlet-mapping>
+ 
   
   <!-- Default page to serve -->
   <welcome-file-list>
