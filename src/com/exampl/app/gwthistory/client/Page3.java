@@ -2,6 +2,7 @@ package com.exampl.app.gwthistory.client;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 
@@ -14,6 +15,7 @@ public class Page3 extends Composite {
 
 	public Page3() {
 		initWidget(uiBinder.createAndBindUi(this));
+		History.newItem("page3");
 	}
 
 }
