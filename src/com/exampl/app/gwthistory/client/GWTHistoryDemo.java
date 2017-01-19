@@ -22,9 +22,13 @@ public class GWTHistoryDemo implements EntryPoint {
 		Nav nav = new Nav();
 		RootPanel.get("nav").add(nav);
 		
-		//show the home page
-		Home home = new Home();
-		RootPanel.get("content").add(home);
+		//check history token
+		String historyToken = History.getToken();
+		if(historyToken != null) {
+			gotoPage(historyToken);
+		} else {
+			gotoPage("home");
+		}
 		
 		
 		//add history mechanism
@@ -34,31 +38,33 @@ public class GWTHistoryDemo implements EntryPoint {
 			public void onValueChange(ValueChangeEvent<String> event) {
 				//get the history token
 				String historyToken = event.getValue();
-				
-				//show corresponding page, parse history token if necessary
-				switch(historyToken) {
-				case "home": 
-					clearAndShowPage(new Home());
-					break;
-				case "page1":
-					clearAndShowPage(new Page1());
-					break;
-				case "page2":
-					clearAndShowPage(new Page2());
-					break;
-				case "page3":
-					clearAndShowPage(new Page3());
-					break;
-				case "page4":
-					clearAndShowPage(new Page4());
-					break;
-				default:
-					Window.alert("Wrong history token! Can't find page.");
-				}
+				gotoPage(historyToken);
 			}
 		});
 	}
 	
+	private void gotoPage(String page) {
+		//show corresponding page, parse history token if necessary
+		switch(page) {
+		case "home": 
+			clearAndShowPage(new Home());
+			break;
+		case "page1":
+			clearAndShowPage(new Page1());
+			break;
+		case "page2":
+			clearAndShowPage(new Page2());
+			break;
+		case "page3":
+			clearAndShowPage(new Page3());
+			break;
+		case "page4":
+			clearAndShowPage(new Page4());
+			break;
+		default:
+			Window.alert("Wrong history token! Can't find page.");
+		}
+	}
 	private void clearAndShowPage(Widget page) {
 		RootPanel.get("content").clear();
 		RootPanel.get("content").add(page);
