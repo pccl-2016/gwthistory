@@ -25,7 +25,7 @@ public class GWTHistoryDemo implements EntryPoint {
 		
 		//check history token
 		String historyToken = History.getToken();
-		if(historyToken != null) {
+		if(historyToken.length() != 0) {
 			gotoPage(historyToken);
 		} else {
 			gotoPage("home");
